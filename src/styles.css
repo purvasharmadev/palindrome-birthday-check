@@ -1,3 +1,42 @@
+:root {
+  --bg-color: #fcd34d;
+  --heading: #78350f;
+  --text: #92400e;
+}
+
 body {
   font-family: sans-serif;
+  text-align: center;
+  background-color: var(--bg-color);
+  padding: 3em 0rem;
+}
+h1 {
+  color: var(--heading);
+  font-size: 3rem;
+}
+
+.container {
+  /* border: 5px green solid; */
+  margin: 9em auto;
+  max-width: 900px;
+}
+
+#date-of-birth,
+#result-btn {
+  padding: 0.5rem;
+  outline: none;
+  font-size: 1rem;
+  color: var(--heading);
+  border-radius: 10px;
+}
+
+#result-btn {
+  margin-bottom: 2em;
+  background: none;
+  /* padding: 1rem; */
+}
+
+#result {
+  color: var(--text);
+  font-size: 2rem;
 }

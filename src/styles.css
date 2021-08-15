@@ -1,7 +1,7 @@
 :root {
-  --bg-color: #fcd34d;
-  --heading: #78350f;
-  --text: #92400e;
+  --bg-color: #ef4444;
+  --heading: #fecaca;
+  --text: #fee2e2;
 }
 
 body {
@@ -13,6 +13,10 @@ body {
 h1 {
   color: var(--heading);
   font-size: 3rem;
+}
+p {
+  color: var(--text);
+  font-size: 1.3rem;
 }
 
 .container {
@@ -26,11 +30,12 @@ h1 {
   padding: 0.5rem;
   outline: none;
   font-size: 1rem;
-  color: var(--heading);
+  color: var(--bg-color);
   border-radius: 10px;
 }
 
 #result-btn {
+  color: var(--text);
   margin-bottom: 2em;
   background: none;
   /* padding: 1rem; */
